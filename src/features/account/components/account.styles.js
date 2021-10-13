@@ -24,7 +24,7 @@ export const AnimationWrapper = styled.View`
   height: 40%;
   position: absolute;
   top: ${(props) => props.theme.space[4]};
-  padding:${(props) => props.theme.space[2]};
+  padding: ${(props) => props.theme.space[2]};
 `;
 
 export const AccountContainer = styled.View`
