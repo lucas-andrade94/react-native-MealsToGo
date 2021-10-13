@@ -22,6 +22,7 @@ Project developed using the following technologies:
 - [Expo](https://expo.io/)
 - [ESLint](https://eslint.org/)
 - [Styled Components](https://styled-components.com/)
+- [Firebase](https://firebase.google.com/)
 
 
 ## 💻 Project
