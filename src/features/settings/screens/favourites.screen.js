@@ -9,6 +9,7 @@ import {
 } from "../components/favourites.style";
 import { RestaurantInfoCard } from "../../restaurants/components/restaurant-info-card.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
+import { Text } from "../../../components/typography/text.component";
 
 export const FavouritesScreen = ({ navigation }) => {
   const { favourites } = useContext(FavouritesContext);

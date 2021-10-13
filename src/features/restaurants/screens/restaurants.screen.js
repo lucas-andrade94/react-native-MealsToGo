@@ -5,6 +5,7 @@ import { Colors } from "react-native-paper";
 import { LoadingContainer, Loading } from "./restaurants.styles";
 
 import { SafeArea } from "../../../components/utility/safe-area.component";
+import { FadeInView } from "../../../components/animations/fade.animation";
 import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
 import { RestaurantsContext } from "../../../services/restaurants/restaurants.context";
 import { FavouritesContext } from "../../../services/favourites/favourites.context";
@@ -34,6 +35,7 @@ export const RestaurantsScreen = ({ navigation }) => {
             onNavigate={navigation.navigate}
           />
         )}
+
         <FlatList
           data={restaurants}
           renderItem={({ item }) => {
@@ -45,7 +47,9 @@ export const RestaurantsScreen = ({ navigation }) => {
                   })
                 }
               >
-                <RestaurantInfoCard restaurant={item} />
+                <FadeInView>
+                  <RestaurantInfoCard restaurant={item} />
+                </FadeInView>
               </TouchableOpacity>
             );
           }}
