@@ -23,7 +23,6 @@ Project developed using the following technologies:
 - [ESLint](https://eslint.org/)
 - [Styled Components](https://styled-components.com/)
 - [Firebase](https://firebase.google.com/)
-- [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
 
 
 ## 💻 Project
@@ -47,15 +46,6 @@ cd react-native-MealsToGo
 # Install dependencies
 npm install
 
-# Go to the functions folder
-cd functions
-
-# Install dependencies
-npm install
-
-# Go back to the main folder
-cd ..
-
 # Run
 npm start
 ```
@@ -64,6 +54,7 @@ npm start
 - Download Expo App
 - I suggest use Tunnel Connection
 - Scan QR Code
+- Cities available to search: Antwerp, Chicago, San Francisco, and Toronto
 
 
 ### Screens

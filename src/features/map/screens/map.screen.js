@@ -7,7 +7,7 @@ import { RestaurantsContext } from "../../../services/restaurants/restaurants.co
 import MapView from "react-native-maps";
 import { MapCallout } from "../components/map-callout.component";
 
-export const MapScreen = ({ navigation }) => {
+const RestaurantsMap = ({ navigation }) => {
   const { location } = useContext(LocationContext);
   const { restaurants = [] } = useContext(RestaurantsContext);
 
@@ -56,4 +56,22 @@ export const MapScreen = ({ navigation }) => {
       </Map>
     </>
   );
+};
+
+export const MapScreen = ({ navigation }) => {
+  const { location } = useContext(LocationContext);
+
+  if (!location) {
+    return (
+      <Map
+        region={{
+          latitude: 0,
+          longitude: 0,
+          longitudeDelta: 0.02,
+        }}
+      />
+    );
+  }
+
+  return <RestaurantsMap navigation={navigation} />;
 };
