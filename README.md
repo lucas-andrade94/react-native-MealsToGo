@@ -59,8 +59,12 @@ npm start
 
 ### Screens
 <div align="center">
-    <img alt="Activity Screen" title="Activity Screen" src=".github\screen-1.jpg?raw=true" width="200px" />
-    <img alt="Activity Screen" title="Activity Screen" src=".github\screen-2.jpg?raw=true" width="200px" />
-    <img alt="Timer Screen" title="Timer Screen" src=".github\screen-3.jpg?raw=true" width="200px" />
-    <img alt="Timer Screen" title="Timer Screen" src=".github\screen-4.jpg?raw=true" width="200px" />
+    <img alt="Home Screen" title="Home Screen" src=".github\screen-1.jpg?raw=true" width="200px" />
+    <img alt="Register Screen" title="Register Screen" src=".github\screen-2.jpg?raw=true" width="200px" />
+    <img alt="Login Screen" title="Login Screen" src=".github\screen-3.jpg?raw=true" width="200px" />
+    <img alt="Restaurants Screen" title="Restaurants Screen" src=".github\screen-4.jpg?raw=true" width="200px" />
+    <img alt="Restaurants and Favourites Screen" title="Restaurants and Favourites Screen" src=".github\screen-5.jpg?raw=true" width="200px" />
+    <img alt="Map Screen" title="Map Screen" src=".github\screen-6.jpg?raw=true" width="200px" />
+    <img alt="Settings Screen" title="Settings Screen" src=".github\screen-7.jpg?raw=true" width="200px" />
+    <img alt="Favourites Screen" title="Favourites Screen" src=".github\screen-8.jpg?raw=true" width="200px" />
 </div>
