@@ -12,7 +12,7 @@ export const FavouritesBar = ({ favourites, onNavigate }) => {
   }
 
   return (
-    <FavouritesWrapper>
+    <FavouritesWrapper elevation={5}>
       <Spacer variant="left.large">
         <Text variant="caption">Favourites</Text>
       </Spacer>
